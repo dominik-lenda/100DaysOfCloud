@@ -244,7 +244,7 @@ migration/traffic bursting/backup-dr/test-dev/proof-concept/data
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+I revised knowledge about foundations of cloud computing.
 
 ## Next Steps
 
