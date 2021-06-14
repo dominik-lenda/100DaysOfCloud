@@ -9,8 +9,8 @@ I am a psychological researcher with experience in programming and data analysis
 I’m doing the challenge because I want to become a cloud engineer.  
 Until the end of the challenge, I'd like to:
 - get at least two Azure certifications including AZ-900 and AZ-104,
-- do at least 50% of the #100DaysOfCloudIdeas
-- have at least two interviews for a cloud engineer job. It doesn't have to be successful.
+- do at least 50% of the #100DaysOfCloudIdeas,
+- have at least two interviews for a cloud engineer job; they don't have to be successful.
 
 - [:bird: Twitter](https://twitter.com/dlenda_cloud)
 - [:link: LinkedIn](https://www.linkedin.com/in/dominik-lenda-a0097b200/)
@@ -19,7 +19,7 @@ Until the end of the challenge, I'd like to:
 
 ## Stepping out the door
 
-- [ ] ☁️ 1 > [My First Day](Journey/001/Readme.md)
+- [x] ☁️ 1 > [My First Day](Journey/001/Readme.md)
 - [ ] ☁️ 2 > [](Journey/002/Readme.md)
 - [ ] ☁️ 3 > [](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [](Journey/004/Readme.md)
