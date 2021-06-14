@@ -1,0 +1,20 @@
+{
+    "grammarly.overrides": [
+        {
+            "files": [
+                "**/Journey/001/Readme.md"
+            ],
+            "config": {
+                "audience": "knowledgeable",
+                "dialect": "british",
+                "domain": "technical",
+                "emotions": [
+                    "neutral"
+                ],
+                "goals": [
+                    "inform"
+                ]
+            }
+        }
+    ]
+}

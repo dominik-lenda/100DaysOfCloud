@@ -7,7 +7,10 @@
 Hello, I’m Dominik :wave:  
 I am a psychological researcher with experience in programming and data analysis.  
 I’m doing the challenge because I want to become a cloud engineer.  
-Until the end of the challenge, I'd like to have at least one interview for a cloud engineer job. It doesn't have to be successful.
+Until the end of the challenge, I'd like to:
+- get at least two Azure certifications including AZ-900 and AZ-104,
+- do at least 50% of the #100DaysOfCloudIdeas
+- have at least two interviews for a cloud engineer job. It doesn't have to be successful.
 
 - [:bird: Twitter](https://twitter.com/dlenda_cloud)
 - [:link: LinkedIn](https://www.linkedin.com/in/dominik-lenda-a0097b200/)
