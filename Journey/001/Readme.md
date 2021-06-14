@@ -1,5 +1,5 @@
 **Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+![placeholder image](intro.png)
 
 # Introduction to the Cloud 
 
@@ -248,7 +248,7 @@ migration/traffic bursting/backup-dr/test-dev/proof-concept/data
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+The next will be overview of Azure Services.
 
 ## Social Proof
 
