@@ -2,28 +2,17 @@
   <img src="banner.png">
 </p>
 
-## The Challenge
-1. Read about the challenge and register at [#100DaysOfCloud.com](https://100DaysOfCloud.com)
-2. Join the [Discord Channel](https://discord.gg/c6Db8nY)
-3. Copy the [100DaysOfCloud/100DaysOfCloud Journey Template](https://github.com/100DaysOfCloud/100DaysOfCloud/generate)
-4. Use the [Micro](Templates/000-DAY-ARTICLE-MICRO-TEMPLATE.md), [Short](Templates/001-DAY-ARTICLE-SHORT-TEMPLATE.md) or [Long](Templates/002-DAY-ARTICLE-LONG-TEMPLATE.md) Day Journey Template and document your day-to-day progress.
-5. Update your main README to link back to your Day Journey article
-4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
+## Dominik's Cloud Journey
 
-## How to use this template:
-Fill in your details where you see this icon ✍️
-We have provided a sample Day Journey entry staring at 0. You can delete this example.
+Hello, I’m Dominik :wave:  
+I am a psychological researcher with experience in programming and data analysis.  
+I’m doing the challenge because I want to become a cloud engineer.  
+Until the end of the challenge, I'd like to have at least one interview for a cloud engineer job. It doesn't have to be successful.
 
-## [✍️ Your Name]'s Cloud Journey
-
-[✍️ Introduce yourself]
-
-[✍️ Tell us why you started this challenge]
-
-[✍️ Tell us where you want to be at the end of the challenge]
-
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+- [:bird: Twitter](https://twitter.com/dlenda_cloud)
+- [:link: LinkedIn](https://www.linkedin.com/in/dominik-lenda-a0097b200/)
+- [:large_blue_circle: Resume](https://www.resumedominiklenda.com/)
+- [:writing_hand: Blog](https://blog.dominiklenda.com/)
 
 ## Stepping out the door
 
