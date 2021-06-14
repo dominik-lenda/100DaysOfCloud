@@ -252,6 +252,4 @@ The next will be overview of Azure Services.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet about this day.](https://twitter.com/dlenda_cloud/status/1404558959978102792)

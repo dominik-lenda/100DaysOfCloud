@@ -12,6 +12,7 @@ Until the end of the challenge, I'd like to:
 - do at least 50% of the #100DaysOfCloudIdeas,
 - have at least two interviews for a cloud engineer job; they don't have to be successful.
 
+More about me :point_down:
 - [:bird: Twitter](https://twitter.com/dlenda_cloud)
 - [:link: LinkedIn](https://www.linkedin.com/in/dominik-lenda-a0097b200/)
 - [:large_blue_circle: Resume](https://www.resumedominiklenda.com/)
