@@ -12,11 +12,11 @@ Until the end of the challenge, I'd like to:
 - do at least 5 micro-projects from the [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas) list,
 - have at least two interviews for a cloud engineer job; they don't have to be successful.
 
-:point_down: More about me   
-[:bird: Twitter](https://twitter.com/dlenda_cloud)  
-[:link: LinkedIn](https://www.linkedin.com/in/dominik-lenda-a0097b200/)  
-[:large_blue_circle: Resume](https://www.resumedominiklenda.com/)  
-[:writing_hand: Blog](https://blog.dominiklenda.com/)  
+:point_down: More about me:   
+- [:bird: Twitter](https://twitter.com/dlenda_cloud)  
+- [:link: LinkedIn](https://www.linkedin.com/in/dominik-lenda-a0097b200/)  
+- [:large_blue_circle: Resume](https://www.resumedominiklenda.com/)  
+- [:writing_hand: Blog](https://blog.dominiklenda.com/)  
 
 <p align="center">
   <img src="lou-tweet-big-picture.png">
