@@ -9,15 +9,23 @@ I am a psychological researcher with experience in programming and data analysis
 I’m doing the challenge because I want to become a cloud engineer.  
 Until the end of the challenge, I'd like to:
 - get at least two Azure certifications including AZ-900 and AZ-104,
-- do at least 50% of the #100DaysOfCloudIdeas,
+- do at least 5 micro-projects from the [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas) list,
 - have at least two interviews for a cloud engineer job; they don't have to be successful.
 
-More about me :point_down:  
+:point_down: More about me   
 [:bird: Twitter](https://twitter.com/dlenda_cloud)  
 [:link: LinkedIn](https://www.linkedin.com/in/dominik-lenda-a0097b200/)  
 [:large_blue_circle: Resume](https://www.resumedominiklenda.com/)  
 [:writing_hand: Blog](https://blog.dominiklenda.com/)  
 
+<p align="center">
+  <img src="lou-tweet-big-picture.png">
+</p>
+
+I've added this tweet because it shows a big picture of the cloud journey.
+I think of #100DaysOfCloud as step number 1. But instead of AWS, I use Microsoft Azure.
+
+Thank you, Lou, for this perspective! Link  to the tweet is [here](https://twitter.com/loujaybee/status/1370284680659017728?s=20).
 ## Stepping out the door
 
 - [x] ☁️ 1 > [My First Day](Journey/001/Readme.md)
