@@ -28,9 +28,9 @@ I think of #100DaysOfCloud as step number 1. But instead of AWS, I use Microsoft
 Thank you, Lou, for this perspective! Link  to the tweet is [here](https://twitter.com/loujaybee/status/1370284680659017728?s=20).
 ## Stepping out the door
 
-- [x] ☁️ 1 > [My First Day](Journey/001/Readme.md)
-- [ ] ☁️ 2 > [](Journey/002/Readme.md)
-- [ ] ☁️ 3 > [](Journey/003/Readme.md)
+- [x] ☁️ 1 > [Introduction to the cloud](Journey/001/Readme.md)
+- [x] ☁️ 2 > [Overview of Azure Services (1/2)](Journey/002/Readme.md)
+- [x] ☁️ 3 > [Overview of Azure Services (2/2)](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [](Journey/006/Readme.md)
