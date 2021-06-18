@@ -1,3 +1,6 @@
+# Questions and confusions
+I see confusion between a container as a placeholder and a container that is a piece of software, which includes its dependencies.
+
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
