@@ -1,52 +1,67 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Microsoft Azure Security Solutions
 
-# New post title here
+## Shared Responsibility
+Which tasks are handled by provider, e.g. Microsoft Azure and which by you?
 
-## Introduction
+They depend on the service models: IaaS, PaaS, SaaS, on-premise.
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+On-premise you are responsible for everything.    
 
-## Prerequisite
+**IaaS** - the cloud provider will be responsible for servers and network hardware, hypervisor. The customer will be responsible for OS, networking config, deployed apps, id managment, and data.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+**PaaS** - a cloud provider has responsibilies as in the IaaS plus managing and securing network controls. However, the customer is at least partially responsible for securing and managing applications, user identities, and data.
 
-## Use Case
+**SaaS** - the customer is still responsible for ensuring that its data is properly classified, customers will share the responsibility for managing users and end-point devices.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+## General Azure Security
 
-## Cloud Research
+### Azure Security Center
+Helps to assess and visualize resources in Azure and on-premises.
+### Azure Key Vault
+Stores and manages tokens, passwords, certificates.
+Manages certifactes - you can use it to provision, manage, and deploy public and private TLS and SSL certificates.  
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Access requires authentication (Azure Active Directory) and authorization.  
+Microsoft cannot get your data.
 
-## Try yourself
+### Azure Monitor Logs
+Collects metrics and logs.
+- Analyze log data,
+- Create a log alert that sends a notification when the results of the qurey match some result,
+- visualize 
+- supports insights
+- access log queries using CLI, powershell, REST API (what is REST API?)
+- automated export of log data 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Azure Sentinel
+it is security information event management (SIEM) and security orchestration automated response (SOAR, whatever it means).
+It offers intelligent security analytics and threat intelligence for:
+- alert detection,
+- threat visibility, 
+- proactive hunting (hunt for security threats before allert is triggered),
+- threat response.
 
-### Step 1 — Summary of Step
+Tou can collect data on all users, devices, applications, infra, on-premise.
 
-![Screenshot](https://via.placeholder.com/500x300)
+It uses AI to get threats.
 
-### Step 1 — Summary of Step
+Orchestration allows to respond quickly??
 
-![Screenshot](https://via.placeholder.com/500x300)
+Firstly, you need to connect to existing data sources.
+It integrates with Azure Monitor Workbooks.
 
-### Step 3 — Summary of Step
+## Storage Security 
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Azure Storage Service Encryption
+Data stored on Azure is encrypted and decrypted using 256-bit AES encryption. Azure enables encryption when storage account is created. Encryption cannot be disabled.
 
-## ☁️ Cloud Outcome
+All storage accounts, all redundancy options, all storage resourcs including blobs, disks, files, queues, and tables are also encrypted.
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+This has no effect on Azure Storage performance and does not cost more.
 
-## Next Steps
+### Azure Access Signatures
 
-✍️ Describe what you think you think you want to do next.
+### Storage Account Keys
 
-## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+### Storage Analytics
