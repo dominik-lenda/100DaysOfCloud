@@ -31,12 +31,12 @@ Thank you, Lou, for this perspective! Link  to the tweet is [here](https://twitt
 - [x] ☁️ 1 > [Introduction to the cloud](Journey/001/Readme.md)
 - [x] ☁️ 2 > [Overview of Azure Services (1/2)](Journey/002/Readme.md)
 - [x] ☁️ 3 > [Overview of Azure Services (2/2)](Journey/003/Readme.md)
-- [X] ☁️ 4 > [Working with a Virtual Machine (VM)](Journey/004/Readme.md)
-- [X] ☁️ 5 > [Practice with Azure storage solutions](Journey/005/Readme.md)
-- [X] ☁️ 6 > [Hands-on lab on Microsoft Azure Networking Products](Journey/006/Readme.md)
-- [X] ☁️ 7 > [Microsoft Azure Security Solutions](Journey/007/Readme.md)
-- [ ] ☁️ 8 > [](Journey/008/Readme.md)
-- [ ] ☁️ 9 > [](Journey/009/Readme.md)
+- [x] ☁️ 4 > [Working with a Virtual Machine (VM)](Journey/004/Readme.md)
+- [x] ☁️ 5 > [Practice with Azure storage solutions](Journey/005/Readme.md)
+- [x] ☁️ 6 > [Hands-on lab on Microsoft Azure Networking Products](Journey/006/Readme.md)
+- [x] ☁️ 7 > [Microsoft Azure Security Solutions 1/3](Journey/007/Readme.md)
+- [x] ☁️ 8 > [Microsoft Azure Security Solutions 2/3](Journey/008/Readme.md)
+- [ ] ☁️ 9 > [Microsoft Azure Security Solutions 3/3](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
 ## Walking down the road
