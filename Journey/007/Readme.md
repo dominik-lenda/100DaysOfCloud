@@ -49,19 +49,3 @@ Orchestration allows to respond quickly??
 
 Firstly, you need to connect to existing data sources.
 It integrates with Azure Monitor Workbooks.
-
-## Storage Security 
-
-### Azure Storage Service Encryption
-Data stored on Azure is encrypted and decrypted using 256-bit AES encryption. Azure enables encryption when storage account is created. Encryption cannot be disabled.
-
-All storage accounts, all redundancy options, all storage resourcs including blobs, disks, files, queues, and tables are also encrypted.
-
-This has no effect on Azure Storage performance and does not cost more.
-
-### Azure Access Signatures
-
-### Storage Account Keys
-
-
-### Storage Analytics
