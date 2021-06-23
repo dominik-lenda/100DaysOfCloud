@@ -37,7 +37,7 @@ Thank you, Lou, for this perspective! Link  to the tweet is [here](https://twitt
 - [x] ☁️ 7 > [Microsoft Azure Security Solutions 1/3](Journey/007/Readme.md)
 - [x] ☁️ 8 > [Microsoft Azure Security Solutions 2/3](Journey/008/Readme.md)
 - [x] ☁️ 9 > [Microsoft Azure Security Solutions 3/3](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [](Journey/010/Readme.md)
+- [x] ☁️ 10 > [Pricing and Support](Journey/010/Readme.md)
 
 ## Walking down the road
 

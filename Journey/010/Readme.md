@@ -1,52 +1,97 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Pricing and Support
 
-# New post title here
+Pricing is based on time, bandwidth, or storage consumption.
 
-## Introduction
+The goal for this course is to understand how services are priced and metered.
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+## Azure Subscription
+It is a single billing unit for Azure resources that is linked to single account.
 
-## Prerequisite
+Three types of subscriptions:
+- Free
+- Pay-as-you-go
+- member offers (offer reduced rates; MSDN Platform, Visual Studio subscribers)
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+You can have more than one subscription.
 
-## Use Case
+## Planning and managment
+Three purchasing options:
+- Enterprise
+Agreement between the enterprise and Microsoft. The agreement to purchase a negotiated amount of Azure services.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+15%-45% savings
 
-## Cloud Research
+- Web Direct
+When customers sign up using the Azure website. Pay-as-you go, billed monthly.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- Cloud Solution Provider
+Agreement between Microsoft and Microsoft partner companies. Billing for Azure usage 
 
-## Try yourself
+### Planning and management of Azure Costs
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Charges mostly are based on usage, which is called **metering**. Some resources are execptions, e.g. virtual networks.
 
-### Step 1 — Summary of Step
+Metering is based on a few factors, but most importantly is based on the type of resource:
+- networks - bandwidth
+- running time for IAAS virtual machines
+- storage accounts - storage capacity
+- virtual machine - size and time
 
-![Screenshot](https://via.placeholder.com/500x300)
+Usage costs may vary between regions.
 
-### Step 1 — Summary of Step
+**Networks**  
+Chargers mostly for egress traffic (dat out) after the first 5GB/Month ($0.087 per GB) and is based on the zone (currently Azure has 4 zones).
 
-![Screenshot](https://via.placeholder.com/500x300)
+For a planning use Pricing Calculator.
 
-### Step 3 — Summary of Step
+You can use many benefitc such as Azure Hybrid benefit by using your existing Windows licence.
 
-![Screenshot](https://via.placeholder.com/500x300)
+Another tool is the Total Cost of Ownership Calculator. Helps to estimate cost savings that result from migration.
 
-## ☁️ Cloud Outcome
+### Best Practices
+- Azure Price Calculator for cost estimation per resource.
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- Spending Limits
+When the limit is reached, a subscription is suspended until the beginning of the next billing cycle.
 
-## Next Steps
+- Tags
+A way to group resoueces to track costs.
 
-✍️ Describe what you think you think you want to do next.
+- Azure Reservations
+Paying in advance for products.
+Pay for a VM for 1 year befor or 3 year before. It is possible to save up to 72% over the pay-as-you-go costs.
 
-## Social Proof
+- Azure Advisor
+Tool built-in Azure portal with four blades:  
+a) High Availability  
+b) Security  
+c) Performance  
+d) **Cost**  
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+Cost blaed is a redirection to Cost Management platform.
 
-[link](link)
+- Azure Cost Management
+a great tool to monitor costs per resource.
+
+### Support Options
+
+- Developer
+For trial and non-production environemtne. Response within 8 hours, in normal business hours.
+- Standard
+For production workloads. 24/7, response in 1 hour.
+- Professional Direct
+24/7, response within 1 hour, additional benefits such as training.
+
+- Premier
+24/7, response in 15 minutes.
+
+### Azure Service Level Agreements
+SLA is a formal document that provides specific terms that state the level of service that will be provided to a customer.
+
+### Service Lifecycle
+
+- Preview Features
+you can beta test prerelease versions of products and features. Private, public preview.
+
+- General Availability (GA)
+Successfully tested products are released to customers as a part of GA
