@@ -8,7 +8,6 @@ Cloud Computing is a remote virtual pool of on-demand
 shared resources offering Compute, Storage, Database, and
 Network services that can be rapidly deployed at scale.
 
-
 ## Virtualization
 
 Virtualization is a way to create a simulated, or virtual, computing environment as opposed to a physical environment. Virtualization allows to have multiple virtual machines, each running a separate OS and applications using one physical server. So it is efficient usage of shared hardware resources.
@@ -38,194 +37,103 @@ Resources that allows me to save and store the data.
 Place where you keep data in some order. Database systems offer more order than storage solutions. Examples are SQL, MySQL.
 
 ### Network resource
-connectivity between resources having some function
-e.g. routers to route traffic, fire walls to allow or deny traffic
+Networks guarantee connectivity between resources. Typically, networks have some function or task to do, e.g. routers route traffic, fire walls allow or deny traffic.
 
-'Cloud Computing' is a remote virtual pool of on-demand
-shared resources offering Compute, Storage, Database, and Network services that can be rapidly deployed at scale.
-
-### Cloud Deployment Models
+## Cloud Deployment Models
 
 - Public Cloud
 - Private Cloud
 - Hybrid Cloud
 
-**Public Cloud**
-A vendor gives access to the infrastructure
-It can be provisioned on demand
-exact location is not known to a consumer but the region is known.
+### Public cloud
+The cloud resources are owned by a third-party cloud service provider and delivered over the internet. Al the backend and physical maintanance is provided by a cloud vendor.
 
-The cloud vendor gives all the bacend and physical maintenance such as power, cooling, hardware failures.
+Benefits:
+- High-availability - on-demand provisioning of resources,
+- Lower costs - no need to purchase hardware,
+- Almost unlimited scalability
+- High reliability - many servers are available and in case of failure of one server other servers may repace the broken one.
+- You can access a public cloud from anywhere, you just need an internet connection.
 
-You can access a public cloud from anywhere you just need an internet connection.
+### Private cloud
+Computing resources are used only by users from specific organization. Infrastructure might be located at organization's datacenter (on-premise) or can be hosted by a third-party service provider.
 
-**Private Cloud**
-Infrastructure is privately hosted and managed.
-More direct control, security.
-The hardware is on-premise.
+It gives more control, but capital and operational expenditure are high and organization is responsible for hardware maintanance. 
 
-But is different from the typical *on-premise server farm*
-Still Virtualization, sharing compute, storage, network
-Virtualization will create a pool of shared compute. storage and network resouces.
+**Hybrid cloud**
+It mixes public and private cloud. Provides the most flexibility. Organizations control security, compliance, or legal requirements. Good for seasonal high-load traffic or Disaster Recovery. The hybrid is often short-term configuration for testing and development.
 
-More capital expenditure is required
-opex also increases
-Capital expenditure?
-CapEX; investments on start
-OpEX; running costs
+## Cloud benefits
 
-**Hybrid Cloud**
-Public and Private Cloud
-for seasonal high-load traffic or Disaster Recovery
-it is a link between private and public cloud
+- High availability
+- Fault tolerence and disaster recovery
+- Scalability
+- Elasticity
+- Agility 
+- Geo-distribution
+- Security (?)
 
-hybrid is often short-term config for test and dev
+### High availability
+Many operations related to cloud such as provisioning, managing, deploying resources is on-demand and relatively quick (depends on service-level agreement). When one server fails many other servers are available quickly. In case of on-premise you would have buy a new hardware.
 
-public/private/hybrid vs. security/data location/capital expediture/operational expedinture/tenancy
+### Fault Tolerance and Disaster recovery
+Cloud system is tolerant to any fault. Any fault can be mitigated. Also when hurricane, tornado or cyber attacks appear a cloud system can recover.
 
-Key Cloud Concepts
-- On-demand resourcing - immediate provisioning
+### Scalability
+Scaling up/down (vertically) by increasing/decreasing. Scaling in/out (horizontally) by adding/removing resources such as VM. You can do this automatically (auto-scaling)
 
-- Scalability - scaling up; scaling down; 'in and out'
-use more computing power or less; num
+### Elasticity
+It is ability to quickly expand or decrease computing resources. Confusing difference between scalability and elasticity.
 
-up/down - more computing resources per virtual machine
-in/out - add or remove the number of VMs
+### Agility and growth
+Quickly deploy and configure resources when your app changes. Organization can grow easily.
+### Geo-distribution
+Cloud enables to deploy apps all around the globe, so customers can have access to servers close to their location (for example CDN helps)
 
-great advantage in comparison to in-promise
+### Security
+AWS and Azure are considered to be more secure. For example, Azure has AI technology that helps to learn about cyberattacks and has a large amount of data to learn from. Although this benefit might be disputable.
 
-- economy of scale 
-low resource costs compared to traditional hosting
+## Cloud Service Models
+They differ in levels of manageability and customization
 
-- flexibility and elacticity
-you choose the amount of resources you requires, how much; how long; what scale
-custimization
+- SaaS
+- PaaS
+- IaaS
 
-- growth 
-organization with the benefits off cloud can grow easily
+### Software as a Service (SaaS)
+The cloud provider manages all aspects of app environment, such as VMs, data storage. The cloud tenant only needs to provide data to the app. The least customizable, widely distributed and accessed. 
+Examples: Gmail, Office 365.
 
-- utility based metering
-pay for what you use
-
-- shared infrastructure
-multiple organizations/users - tenants can be running VMs on the same hardware
-
-less physical hardware; cheaper you know
-
-- highly available
-?? do not understand the slide
-
-- security
-AWS and Azure considered to be more secure
-shared responsibility model
-
-### Cloud Service Models
-IaaS; PaaS; SaaS
-different level of managibility and customization
-
-- Software as a Service (SaaS)
-the least customizable
-widley distributed and  accessed Gmail
-
-- Platform as a Service (PaaS) 
-greater level of control
-
-access to a framework; but underlying architecutre; physical hardware, network component, and OS are typically managed by the vendor
+### Platform as a Service (PaaS)
+It is a managed hosting environment or a framework. The cloud provider manages underlying architecture: physical hardware, VMs, networks, and the cloud tenant deploys applications into managed hosting environment. It gives more control than SaaS.
 
 - Infrastructure as a service (IaaS)
-the greates level of customization and control
+Closest to managing physical servers. The cloud provider manages hardware, but OS maintanance and network configuration is up to the cloud tenant. The greates level of customization and control.
 
-you configure your own resources, VMs, virtual networks; OS etc.
-
-vendor controls hardware
-other:
+Other examples:
 DRaaS, CaaS, etc.
 
 ### Common use cases of Cloud Computing
-- Migration from on-premise to public cloud
+- Migration 
+From on-premise to the public cloud.
 
 - Traffic Bursting
-using to cloud to manage traffic in hard seasons
+Using cloud from time to time to manage seasonal higher traffic.
 
 - Backup/Disaster Recovery
-unlimited storage space
+Unlimited storage space.
 
 - Web Hosting
-load balancers are good, traffic deloading; scaling
-CDN is amazing; cashing locally
+The cloud provides load balancers, CDNs, or many other great solutions for the Web.
 
-- Test/Dev Env
-use servers for test and dev when u need
+- Test/Dev Environment
+Use cloud for testing and development.
 
 - Proof of Concept
-prepared sucessful solutions? 
+Many solutions, architectures are ready and you can use it.
 
 - Big Data/Data Manipulation
-huge datasets; data lakes; good way to manage them
-
-### Mapping data center architecture to the cloud alternative
-i'd like to run my own small data center and pet it like a puppy;
-- location; 1 office; cloud many places
-- physical security 
-public cloud vendor's responsibility is to make it secure; you need less
-- mechanical and electrical infrastructure
-cooling; air conditionin; fire supression; etc.
-- network infrastructure
-switching, routers; firewalls
-cloud has easily to set up networks
-- servers 
-they are virtual machines
-- storage
-unlimited, scalable; great
-storage area network
-
-### Summary
-Cloud computing
-remote virtual pool of on-demand shared resources offering Compute, Storage, Database, and Network services that can be rapidly deployed at scale.
-
-* based on virtualized tech
-* resources Compute, Storage, Database, Network
-CSDN
-CNDS
-
-3 cloud deployment models
-public/private/hybrid
-
-key terms
-on-demand/scalability/economy-of-scale/flexibility&elasticity/growth/pay-as-you-go/shared-infrastructure/highly-available/shared-security
-
-3 service models
-IaaS/PaaS/SaaS
-
-uses of cloud comp
-migration/traffic bursting/backup-dr/test-dev/proof-concept/data
-
-
-* read about shared responsibility model
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-I revised knowledge about foundations of cloud computing.
-
-## Next Steps
-
-The next will be overview of Azure Services.
+For huge datasets; data lakes; cloud is a good way to manage them.
 
 ## Social Proof
 
