@@ -1,66 +1,43 @@
 **Add a cover photo like:**
-![placeholder image](intro.png)
+![placeholder image](001-intro.png)
 
-# Introduction to the Cloud 
+# Introduction to the Cloud
 
-## Introduction
-
-I'm choosing this subject because I want to build strong foundations of cloud-related knowledge.
-## Prerequisite
-
-It is good to know more or less what servers and datacenter are.
-
-## Cloud Research - Introduction to the cloud (raw notes)
-### What is Cloud Computing?
-The cloud is rapidly developing technology. 
-It helps companies to operate on a huge scale.  
-
+## What is Cloud Computing?
 Cloud Computing is a remote virtual pool of on-demand
 shared resources offering Compute, Storage, Database, and
 Network services that can be rapidly deployed at scale.
 
-The word **SCALE** is crucial here. 
 
-Cloud is based on a on-premise technology. So it solves
-problems that are related to on-premise. It maximizes the power of cloud computing.
+## Virtualization
 
-What is **Virtualization**?
-You can have multiple virtual machines, each running a separate OS and applications using 1 physical server!
-This is huge.
+Virtualization is a way to create a simulated, or virtual, computing environment as opposed to a physical environment. Virtualization allows to have multiple virtual machines, each running a separate OS and applications using one physical server. So it is efficient usage of shared hardware resources.
 
-**Sharing hardware resources** is a key here.
+A **hypervisor**, which is a piece of software, creates multiple VMs to be installed on the same physical server.Any request to the hardware goes via the Hypervisor. 
 
-A **hypervisor**, which is a piece of software, allows to create multiple VMs to be installed on the same physical server.
-
-Any request to the hardware goes via the Hypervisor. 
-
-Benefits of Virtualization:
+Benefits of Virtualization (optimization of costs):
 - less hardware is required (reduced capital expenditure)
-- less space, power, cooling required within datacenter (reduced operating costs)
-so **optimization of resources** 
+- less space, power, cooling required within datacenter (reduced operating costs).
 
 **Virtualization** has been used in on-premise datacenters for a long time.
 
-What are resources?
-- Compute 
-- Storage 
+## Introduction to different types of resources
+- Compute
+- Storage
 - Database
 - Network
 
-* Compute
-Compute objects are like 'brains' to process workloads.
-CPUs, RAM, related to hardware
+### Compute
+Compute objects are like 'brains'. They process workloads.
+CPUs, RAM, related to hardware.
 
-* Storage
-resource that allows me to save and store the data
-- typical env -> hard disk
+### Storage
+Resources that allows me to save and store the data.
 
-* Database
-What are databases?
-not much info
-engines SQL, MySQL
+### Database
+Place where you keep data in some order. Database systems offer more order than storage solutions. Examples are SQL, MySQL.
 
-* Network resource
+### Network resource
 connectivity between resources having some function
 e.g. routers to route traffic, fire walls to allow or deny traffic
 

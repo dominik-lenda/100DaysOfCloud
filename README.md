@@ -18,17 +18,9 @@ Until the end of the challenge, I'd like to:
 - [:large_blue_circle: Resume](https://www.resumedominiklenda.com/)  
 - [:writing_hand: Blog](https://blog.dominiklenda.com/)  
 
-<p align="center">
-  <img src="lou-tweet-big-picture.png">
-</p>
-
-I've added this tweet because it shows a big picture of the cloud journey.
-I think of #100DaysOfCloud as step number 1. But instead of AWS, I use Microsoft Azure.
-
-Thank you, Lou, for this perspective! Link  to the tweet is [here](https://twitter.com/loujaybee/status/1370284680659017728?s=20).
 ## Stepping out the door
 
-- [x] ☁️ 1 > [Introduction to the cloud](Journey/001/Readme.md)
+- [x] ☁️ 1 > [Introduction to the cloud](Journey/001/001-Readme.md)
 - [x] ☁️ 2 > [Overview of Azure Services (1/2)](Journey/002/Readme.md)
 - [x] ☁️ 3 > [Overview of Azure Services (2/2)](Journey/003/Readme.md)
 - [x] ☁️ 4 > [Working with a Virtual Machine (VM)](Journey/004/Readme.md)
@@ -41,7 +33,7 @@ Thank you, Lou, for this perspective! Link  to the tweet is [here](https://twitt
 
 ## Walking down the road
 
-- [ ] ☁️ 11 > [](Journey/011/Readme.md)
+- [x] ☁️ 11 > [](Journey/011/Readme.md)
 - [ ] ☁️ 12 > [](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [](Journey/014/Readme.md)
