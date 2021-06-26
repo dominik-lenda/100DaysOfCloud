@@ -34,7 +34,7 @@ Until the end of the challenge, I'd like to:
 ## Walking down the road
 
 - [x] ☁️ 11 > [Additional topics](Journey/011/Readme.md)
-- [x] ☁️ 12 > [Repeating material and rewriting notes from Day 1](Journey/012/Readme.md)
+- [x] ☁️ 12 > [Repeating materials and rewriting notes from Day 1](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [](Journey/015/Readme.md)
