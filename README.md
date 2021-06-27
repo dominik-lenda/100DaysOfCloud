@@ -36,7 +36,7 @@ Until the end of the challenge, I'd like to:
 - [x] ☁️ 11 > [Additional topics](Journey/011/Readme.md)
 - [x] ☁️ 12 > [Repeating materials and rewriting notes from Day 1](Journey/012/Readme.md)
 - [x] ☁️ 13 > [Rewriting notes and learning Linux](Journey/013/Readme.md)
-- [ ] ☁️ 14 > [](Journey/014/Readme.md)
+- [x] ☁️ 14 > [Linux fundamentals 1/n](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [](Journey/015/Readme.md)
 - [ ] ☁️ 16 > [](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [](Journey/017/Readme.md)
