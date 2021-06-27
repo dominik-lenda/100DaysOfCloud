@@ -1,9 +1,4 @@
 ## Compute
-- Azure Virtual Machines
-- Azure App Service
-- Azure Container Instances and Azure Kubernetes Service
-- Azure Functions
-
 ### Azure Virtual Machines (IaaS)
 Virtual machines are software emulations of physical computers. VM is like a physical computer - it has vitual processor, memory, storage, networking resources. You can host operating system on it, run software. It is ideal choice when you want have total control over the OS.
 
