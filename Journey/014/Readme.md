@@ -1,52 +1,85 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Linux Fundamentals - Day 2
 
-# New post title here
+## Linux directory
+The Linux directory system is like a tree.
 
-## Introduction
+- / - "Root", the top of the file system hierarchy
+- /bin - binaries or executable programs, machine-readable
+- /etc - configuration files, e.g. file that tells to boot in a graphic or text mode
+- /home - Home directories, for your own documents, music files, etc.
+- /opt - optional software, software that is not bundled with OS
+- /tmp - temporary space that is cleared on reboot
+- /usr - user related programs
+- /var - variable data, things that change often, most notably log files
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Application Directory Structures
+- /usr/local/some_backup_software/bin
+- /usr/local/some_backup_software/etc
+- /usr/local/some_backup_software/lib
+- /usr/local/some_backup_software/log
 
-## Prerequisite
+- /opt/avg/bin
+- /opt/avg/etc
+- /opt/avg/lib
+- /opt/avg/log
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+sometimes:
+- /etc/opt/myapp
+- /opt/myapp/bin
+- /opt/myapp/lib
+- /var/opt/myapp
 
-## Use Case
+sometimes in shared manner:
+/usr/local/bin/myapp
+/usr/local/etc/myapp.conf
+/usr/local/lib/libmyapp.so
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+or company name:
+/opt/acme
+/opt/acme/bin
+/opt/acme/etc
 
-## Cloud Research
+or company name/product name
+/opt/google
+/opt/google/chrome
+/opt/google/earth
+or other variations
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Generally, if software not bundled with OS, it should be in /opt or in /usr (/usr/local)
 
-## Try yourself
+## The Shell
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+The default user interface to the Linux system.
 
-### Step 1 — Summary of Step
+Graphical User Interface is a graphical shell.
 
-![Screenshot](https://via.placeholder.com/500x300)
+The shell is a program that executes your commands.
 
-### Step 1 — Summary of Step
+Why the Shell?
+- more powerful, e.g. you can run a command on multiple files
+- it always be there, GUIs change,
+- server distribution do not include GUIs
 
-![Screenshot](https://via.placeholder.com/500x300)
+### The Prompt
+[user]$ - user  
+[user]# - superuser (the root)
 
-### Step 3 — Summary of Step
+You need a root access to do server-wise operations.
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Basic Linux Commands
+- ls
+- cd 
+- pwd
+- cat
+- echo
+- man
+- exit
+- clear
 
-## ☁️ Cloud Outcome
+Linux commands are case-sensitive.
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Directory shortcuts
 
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+- . - this directory
+- .. - the parent dir
+- cd - - change to the previous dir
