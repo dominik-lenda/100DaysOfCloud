@@ -12,39 +12,24 @@
 - Azure Virtual Gateway
 - Azure ExpressRoute
 
-## Storage
-- Azure Blob Storage  
-object storage; collection of files; no hierarchical folder structure; it's flat, for videos, images, etc.
-HOT (frequent), COOL (infrequent), ARCHIVE (backup, lowest cost)  
-if you need hierarchical file storage
+## [Storage](002-storage.md) - link to notes
 
-- Azure File Storage  
-hierarchical structure; files for Windows servers
+- Azure Blob Storage
+- Azure Disk Storage
+- Azure Files Storage
+- Azure Blob Access tiers
 
-- Azure Data Lake Storage Gen2  
-Hadoop-compatibile for data analytics apps
-
-- Azure SQL databases  
-relational databases, very similar to sql server; open source version are also available:
-
-- Azure DB Open Source   
-Azure Database for MySQL, Azure Database for Maria DB, Azure Database for PostgreSQL online transactions processing; on
-
-I really like the transistions between learned concepts
-
-- Azure Synapse Analytics  
-data warehouse; integration of many services
+## [Databases and analytics](002-databases-analytics.md) - link to notes
 
 - Azure Cosmos DB
-SQL Database not enough; the traffic to high so use Azure Cosmos DB; NoSQL, not relational; sacraficing some power to meet demand of users
-
-Cosmos DB can scale globally
-
-- Azure Cache for Redis  
-can speed application's data by 
-caching frequently requested data
-cashing caching - almost funny
-caching is important; is like storing data/files closer to the users
+- Azure SQL Database
+- Azure SQL Managed Instance
+- Azure Database for MySQL
+- Azure Database for PostgreSQL
+- Azure Synapse Analytics
+- Azure HDInsight
+- Azure Databricks
+- Azure Data Lake Analytics
 
 ## Using the Azure Portal
 There are many ways to interact with Azure
