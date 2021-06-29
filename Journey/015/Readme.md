@@ -1,52 +1,55 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Linux 2/n
 
-# New post title here
+## Long listing
+- $ ls -l - detailed 
+- $ ls -a - show hidden files (all files)
+- $ ls -al or $ ls -la - combine
+- $ ls -F - reveal file type (/ - ; @ - link; * - executable)
+- $ ls -F - reveal file type (/ - ; @ - link; * - executable)
+- $ ls -latr - list all files, ordered by time, reversed (last-modified on the bottom)
+- ls -R - list recursively
+- tree -d - visualize  directory tree
+- tree -C - colorize visualization of directory tree
+### What is a link?
+Symbolic links are pointers to the actual file or directory.
 
-## Introduction
+Link is used as if it were the file.
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Foir example, it is a shortcut for long names of files or directories
 
-## Prerequisite
+## File and Directory Permissions
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+### Permissions
+Example:
+drwxrwxr-x
 
-## Use Case
+Type:
+- - - regular file
+- d - directory
+- l - symbolic link
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Permission:
+r - read
+w - write
+x - execute
 
-## Cloud Research
+Difference in permissions between files and directories:
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+| Permission | File             | Directory                           |
+|------------|------------------|-------------------------------------|
+| r          | Can be read      | Files in the directory can be read  |
+| w          | Can be modifieds | You can edit files in the directory |
+| x          | Can be executed  | Gives access to metadata            |
 
-## Try yourself
+Permission Categories
+- u - user (owner of the file)
+- g - group (the members of the files)
+- o - other (all users)
+- a - all
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Every user belongs to at least one group.
 
-### Step 1 — Summary of Step
+`groups`
+`id -Gn`
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
