@@ -10,7 +10,7 @@ Octal mode
 
 Working with Groups
 
-# Linux
+## My slides on Linux File Permissions
 https://slides.com/dominik-lenda/linux-permissions
 
 # Is it Azure or is it me?
