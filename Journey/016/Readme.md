@@ -14,6 +14,9 @@ Working with Groups
 https://slides.com/dominik-lenda/linux-permissions
 
 # Is it Azure or is it me?
-## Difference between Azure Serivce Health or Azure Monitor
+## Diffe
+Exam AZ-104: Microsoft Azure Administrator
+The content of this exam was updated on May 25, 2021. Please download the skills measured document below to see what changed.
+rence between Azure Serivce Health or Azure Monitor
 
 https://azure.microsoft.com/en-us/blog/what-s-the-difference-between-azure-monitor-and-azure-service-health/
