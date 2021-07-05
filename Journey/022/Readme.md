@@ -1,52 +1,48 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Linux Day 4
 
-# New post title here
+## Deleting files
+rm file - remove file  
+rm -r dir - remove directory and its content  
+rm -f file - force removal  
 
-## Introduction
+## Copying files
+cp source_file destination_file  
+cp file1 file2 ... destination_dir - you can copy series of files  
+cp -i - run interactive mode   
+cp -r source_dir destination  
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+## Moving and renaming files
+mv - Move or rename files and directories  
+mv source destination  
+m -i source destination  
 
-## Prerequisite
+## Sorting data
+sort - sorts text alphabetically in the file  
+sort file 
+-k F - sort by key; F is the field number  
+-r - sort in reverse  
+-u - sort unique  
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+## Creating a collection of files or archives
+You can bundle a collection of files with tar.
+Create, extract, list contents of a tar archive.
+tar. No need for hyphen to use tar options.
 
-## Use Case
+c - create a tar archive  
+x - extract files from the archive  
+t - display the table  
+v - be verbose  
+z - use compression  
+f file - use this file  
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+## Compressing Files
+gzip - compress files  
+gunzip - uncompress files  
+gzcat - concatenates compressed files  
+zcat - concatenates compressed files  
 
-## Cloud Research
+du - estimates file usage  
+du -k - displays in kilobytes  
+du -h - displays in human readble format  
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+You can compress tars witgh gzip.  
