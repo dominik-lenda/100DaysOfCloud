@@ -1,0 +1,4 @@
+-rw-rw-r-- 1 dominik_lenda dominik_lenda 0 Jul  6 20:20 file
+-rw-rw-r-- 1 dominik_lenda dominik_lenda 0 Jul  6 20:20 testing
+-rw-rw-r-- 1 dominik_lenda dominik_lenda 0 Jul  6 20:27 files.txt
+total 0

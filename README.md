@@ -46,9 +46,9 @@ Until the end of the challenge, I'd like to:
 
 ## Crossing the bridge
 
-- [ ] ☁️ 21 > [](Journey/021/Readme.md)
-- [ ] ☁️ 22 > [](Journey/022/Readme.md)
-- [ ] ☁️ 23 > [](Journey/023/Readme.md)
+- [x] ☁️ 21 > [I passed AZ-900!](Journey/021/Readme.md)
+- [x] ☁️ 22 > [Linux](Journey/022/Readme.md)
+- [x] ☁️ 23 > [Linux Wildcards](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [](Journey/026/Readme.md)

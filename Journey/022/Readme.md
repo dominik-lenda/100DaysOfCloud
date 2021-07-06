@@ -1,5 +1,4 @@
 # Linux Day 4
-
 ## Deleting files
 rm file - remove file  
 rm -r dir - remove directory and its content  

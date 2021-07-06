@@ -1,52 +1,74 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Linux Day 5
 
-# New post title here
+## Wildcards
+Wildcard is a character or string used for pattern matching.
 
-## Introduction
+Wildcards can be used with most commands:
+- ls
+- rm
+- cp
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Two main **wildcards**:
+- \* - matches zero or more characters
+*.txt  
+a*
+a*.txt
+- ? - matches exactly one character
+?.txt  
+a?  
+a?.txt (a5.txt, ak.txt)
+https://4651a584-962e-4e31-93f8-7ead63f65b36-code.t.cloudacademylabs.com/#/home/project
+### Character Classes
+- \[\] - A character class.
 
-## Prerequisite
+Matches any of the characters included between the brackets. Matches exactly one character.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+\[aeiou\] - look for file names that has any of the vowels  
+ca\[nt\] -> can, cat, candy, catch  
 
-## Use Case
+- \[!\] - matches any of the characters NOT included between brackets.
+\[!aeiou\]*
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+### Ranges
+- \[a-g\]* or \[1-6\]* 
+- \[\[:alpha:\]\]
+- \[\[:digit:\]\]
+- \[\[:lower:\]\]
+- \[\[:space:\]\] - mathces whitespaces - spaces, tabs, etc.
+- \[\[:upper:\]\]
 
-## Cloud Research
+### Escaping Wildcards
+use \
+- *\?
+but generally it is better to avoid question marks inside a file name
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## Input, Output, and Redirection
+- Neither my keyboard, nor monitor is a file. But that's not true. Linux represents everything as a file.
 
-## Try yourself
+| I/O name        | Abbrevation | File description |
+|-----------------|:-----------:|:----------------:|
+| Standard input  |    stdin    |         0        |
+| Standard output |    stdout   |         1        |
+| Standard error  |    stderr   |         2        |
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Redirections
+- \> - redirects standard output to a file, **overwriting** existing contents.
+- \>> - redirects standard output to a file, **appending** to any existin content.
+- < - redirects input from a file to a command.
 
-### Step 1 — Summary of Step
+You can redirect with a file descriptor using `&`:
+- `2>&1` - combine stderr and stdout
+- `2>file` - redirects stderr to a file
 
-![Screenshot](https://via.placeholder.com/500x300)
+### The Null Device
+You can ignore the output by redirecting it to nowhere using:
+`/dev/null` using the null device.
 
-### Step 1 — Summary of Step
+# Explorations outside the course
 
-![Screenshot](https://via.placeholder.com/500x300)
+## /dev/random
+Any Unix-like OS has /dev/random or something similar such as /dev/random that are special files that serve as pseudorandom number generator.
 
-### Step 3 — Summary of Step
+# Also deployed a Windows Azure VM using Azure CLI
+https://cloudacademy.com/lab/deploying-a-windows-azure-vm-using-azure-cli/
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
