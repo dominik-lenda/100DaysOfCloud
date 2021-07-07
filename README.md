@@ -48,8 +48,8 @@ Until the end of the challenge, I'd like to:
 
 - [x] ☁️ 21 > [I passed AZ-900!](Journey/021/Readme.md)
 - [x] ☁️ 22 > [Linux](Journey/022/Readme.md)
-- [x] ☁️ 23 > [Linux Wildcards](Journey/023/Readme.md)
-- [ ] ☁️ 24 > [](Journey/024/Readme.md)
+- [x] ☁️ 23 > [Linux Wildcards, I/O, VM deployment](Journey/023/Readme.md)
+- [x] ☁️ 24 > [Linux file comparison, pipes, web app deployment with Azure App Service](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [](Journey/026/Readme.md)
 - [ ] ☁️ 27 > [](Journey/027/Readme.md)

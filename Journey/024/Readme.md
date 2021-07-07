@@ -1,52 +1,86 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Linux
 
-# New post title here
+## Comparing files
 
-## Introduction
+```bash
+# compare two files
+diff file1 file2
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+# side-by-side comparison
+sdiff file1 file2
 
-## Prerequisite
+# highlighting differences in vim
+vimdiff file1 file2
+```
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+### diff output
 
-## Use Case
+```bash
+diff file1 file2
+# first 4 means that both files have 4 lines; c4 means that fourth line is different
+4c4
+< This is a line in a file.
+---
+> This is a line in a File!
+```
+LineNumFile1-Action-LineNumFile2
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Action=(a)dd or (c)hange or (d)elete
 
-## Cloud Research
+## Searching in files and using pipes
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### The grep command
 
-## Try yourself
+grep - display lines matching a pattern
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+The structure:
+grep pattern file  
+-i Perform a search, ignoring case.  
+-c Count the number of occurances in a file.  
+-n Precede output with line numbers.  
+-v Invert Match. Print lines that don't match.  
 
-### Step 1 — Summary of Step
+### The file command
 
-![Screenshot](https://via.placeholder.com/500x300)
+file file_name display file type.
 
-### Step 1 — Summary of Step
+### Searching for text in binary files
 
-![Screenshot](https://via.placeholder.com/500x300)
+strings - comannd that displays printable strings.
 
-### Step 3 — Summary of Step
+### Pipes
 
-![Screenshot](https://via.placeholder.com/500x300)
+| Pipe symbol
 
-## ☁️ Cloud Outcome
+command-output | command-input
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Pipe chaines two commands. Pipe takes stdout from the preceding command and passes it as a stdin to fhe following command.
 
-## Next Steps
+```bash
+# result of those two commands is the same
+grep pattern file
+cat file | grep pattern
+```
 
-✍️ Describe what you think you think you want to do next.
+### The cut command
 
-## Social Proof
+cut \[file\] Cut out selected portions of file.  
+\-d delimiter Use delimiter as the file separator.  
+\-f N Display the Nth field
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+### Example of the pipe
+Example of the pipe that gets my user name and real name from /etc/passws and shows it in a clear, formatted way:  
+
+```bash
+grep dominik /etc/passwd | cut -d: -f1,5 | tr ":" " " | tr "," " " | column -t
+```
+
+### Piping output to a pager
+
+- more
+- less
+
+# I did a hands-on lab on working with Azure App Service using Azure CLI
+
+https://cloudacademy.com/lab/working-with-azure-app-service-using-azure-cli/
