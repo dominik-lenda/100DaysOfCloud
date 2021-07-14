@@ -9,6 +9,4 @@ In **batch processing**, data are formed in groups that are processed after a pe
 Batch processing resembles gathering and counting votes during an election: first votes are accumulated, then they are counted. However, an example of streaming processing is the *real-time* collection and analysis of data on interactions between gamers.
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Link](https://twitter.com/dlenda_cloud/status/1415429452918558720?s=20) to tweet about this day.
