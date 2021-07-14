@@ -6,9 +6,9 @@
 
 Hello, I’m Dominik :wave:  
 I am a psychological researcher with experience in programming and data analysis.  
-I’m doing the challenge because I want to become a cloud engineer.  
+I’m doing the challenge because I want to become a cloud engineer specializing in data engineering.  
 Until the end of the challenge, I'd like to:
-- get at least two Azure certifications including AZ-900 and AZ-104,
+- get at least two Azure certifications including AZ-900 and DP-900,
 - do at least 5 micro-projects from the [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas) list,
 - have at least two interviews for a cloud engineer job; they don't have to be successful.
 
@@ -37,12 +37,12 @@ Until the end of the challenge, I'd like to:
 - [x] ☁️ 12 > [Repeating materials and rewriting notes from Day 1](Journey/012/Readme.md)
 - [x] ☁️ 13 > [Rewriting notes and learning Linux](Journey/013/Readme.md)
 - [x] ☁️ 14 > [Linux fundamentals 1/n](Journey/014/Readme.md)
-- [ ] ☁️ 15 > [](Journey/015/Readme.md)
-- [ ] ☁️ 16 > [](Journey/016/Readme.md)
-- [ ] ☁️ 17 > [](Journey/017/Readme.md)
-- [ ] ☁️ 18 > [](Journey/018/Readme.md)
-- [ ] ☁️ 19 > [](Journey/019/Readme.md)
-- [ ] ☁️ 20 > [](Journey/020/Readme.md)
+- [x] ☁️ 15 > [](Journey/015/Readme.md)
+- [x] ☁️ 16 > [](Journey/016/Readme.md)
+- [x] ☁️ 17 > [](Journey/017/Readme.md)
+- [x] ☁️ 18 > [](Journey/018/Readme.md)
+- [x] ☁️ 19 > [](Journey/019/Readme.md)
+- [x] ☁️ 20 > [](Journey/020/Readme.md)
 
 ## Crossing the bridge
 
@@ -52,14 +52,14 @@ Until the end of the challenge, I'd like to:
 - [x] ☁️ 24 > [Linux file comparison, pipes, web app deployment with Azure App Service](Journey/024/Readme.md)
 - [x] ☁️ 25 > [Linux aliases, customization of command prompt](Journey/025/Readme.md)
 - [x] ☁️ 26 > [VNet challenge done, Linux](Journey/026/Readme.md)
-- [ ] ☁️ 27 > [](Journey/027/Readme.md)
-- [ ] ☁️ 28 > [](Journey/028/Readme.md)
-- [ ] ☁️ 29 > [](Journey/029/Readme.md)
-- [ ] ☁️ 30 > [](Journey/030/Readme.md)
+- [x] ☁️ 27 > [](Journey/027/Readme.md)
+- [x] ☁️ 28 > [](Journey/028/Readme.md)
+- [x] ☁️ 29 > [](Journey/029/Readme.md)
+- [x] ☁️ 30 > [](Journey/030/Readme.md)
 
 ## Into the bushy, thorny forest
 
-- [ ] ☁️ 31 > [](Journey/031/Readme.md)
+- [x] ☁️ 31 > [Batch vs. streaming data processing](Journey/031/Readme.md)
 - [ ] ☁️ 32 > [](Journey/032/Readme.md)
 - [ ] ☁️ 33 > [](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [](Journey/034/Readme.md)
